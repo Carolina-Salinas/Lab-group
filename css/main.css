@@ -6,7 +6,6 @@ p {
 .btn {
 	margin: 1%;
 	color: white;
-	font-weight: bold;
 	padding: 2% 1%; 
 }
 .btn-gris {
@@ -16,81 +15,88 @@ p {
 .btn-trans {
 	background-color: rgba(150, 150, 150, 0.3);
 }
-.bg {
+.build {
+	background-image: url("../img/background/city.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: left top;
+	height: 400px;
 }
-.shadow {
+
+.call{
 	background-color: rgba(0, 0, 0, 0.6);
 	height: 100%;
 	color: white;
+	text-align: center;
+}
+/*
+.build  {
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
 	padding: 2%;
 	text-align: center;
 }
-.shadow p {
+*/
+.build p {
 	color: white;
 }
-.grey-wrap {
+.greyfont {
 	background-color: #F4F4F4;
 	padding: 2%;
 	text-align: center;
 }
-.spu {
+.thumbnail {
 	padding: 2%;
 	border-radius: 0;
 }
-/* CALL TO ACTION */
-.call-to {
-	height: 360px;
-	background-image: url("../img/background/city.jpg");
+/* CALL */
 }
-.call-to-cont {
+.callintro{
 	padding: 4%;
 	line-height: 40px;
 }
-.call-to-cont p {
-	font-size: 24px;
+.callintro p {
+	font-size: 20px;
 	padding: 5%;
 }
-/* PRICING */
+/* PRICING 
 .pricing .row {
 	padding: 0 4%;
 }
-.pricing .spu * {
+*/
+.cost .thumbnail* {
 	margin: 0;
 }
-.pricing .spu{
+.cost .thumbnail{
 	padding: 35px 20px;
 	margin-top: 30px;
 }
-.type {
+.bar {
 	height: 100px;
-	background-color: #323A45;
+	background-color: #888;
 	color: white;
 	padding: 30px;
 }
-.prem {
+.premium {
 	background-color: #0DC0C0;
 }
-.price {
+.dollar{
 	height: 150px;
-	background-color: #F4F4F4;
+	background-color: #fff;
 	font-size: 20px;
 	padding: 50px 0;
 }
-.price p {
+.dollar p {
 	color: #323A45;
 }
-.price p span {
+.dollar p span {
 	font-size: 30px;
 }
-.caract {
+.content {
 	padding: 30px;
 	padding-bottom: 0;
 }
-.caract div {
-	border-bottom: 1px solid #F4F4F4;
+.content div {
+	border-bottom: 1px solid #fff;
 	padding: 15px;
 }
 .caract .btn-lg {
