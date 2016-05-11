@@ -1,0 +1,103 @@
+/* GLOBAL */
+p {
+	color: #999;
+	font-size: 16px;
+}
+.btn {
+	margin: 1%;
+	color: white;
+	font-weight: bold;
+	padding: 2% 1%; 
+}
+.btn-gris {
+	background-color: #323A45;
+	color: #ccc;
+}
+.btn-trans {
+	background-color: rgba(150, 150, 150, 0.3);
+}
+.bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.shadow {
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	color: white;
+	padding: 2%;
+	text-align: center;
+}
+.shadow p {
+	color: white;
+}
+.grey-wrap {
+	background-color: #F4F4F4;
+	padding: 2%;
+	text-align: center;
+}
+.spu {
+	padding: 2%;
+	border-radius: 0;
+}
+/* CALL TO ACTION */
+.call-to {
+	height: 360px;
+	background-image: url("../img/background/city.jpg");
+}
+.call-to-cont {
+	padding: 4%;
+	line-height: 40px;
+}
+.call-to-cont p {
+	font-size: 24px;
+	padding: 5%;
+}
+/* PRICING */
+.pricing .row {
+	padding: 0 4%;
+}
+.pricing .spu * {
+	margin: 0;
+}
+.pricing .spu{
+	padding: 35px 20px;
+	margin-top: 30px;
+}
+.type {
+	height: 100px;
+	background-color: #323A45;
+	color: white;
+	padding: 30px;
+}
+.prem {
+	background-color: #0DC0C0;
+}
+.price {
+	height: 150px;
+	background-color: #F4F4F4;
+	font-size: 20px;
+	padding: 50px 0;
+}
+.price p {
+	color: #323A45;
+}
+.price p span {
+	font-size: 30px;
+}
+.caract {
+	padding: 30px;
+	padding-bottom: 0;
+}
+.caract div {
+	border-bottom: 1px solid #F4F4F4;
+	padding: 15px;
+}
+.caract .btn-lg {
+	padding: 6px 14%;
+}
+/* TESTIMONIALS */
+
+/* CONTACT */
+
+/* FOOTER */
