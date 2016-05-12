@@ -1,18 +1,25 @@
-/* GLOBAL */
+*{outline: 1px solid rgba(255,0,0,0.1);}*/
 p {
 	color: #999;
 	font-size: 16px;
 }
-.btn {
+.butoncall {
 	margin: 1%;
 	color: white;
-	padding: 2% 1%; 
+	padding: 3%;
+	font-size: 18px; 
 }
-.btn-gris {
+.buton {
+	margin: 1%;
+	color: white;
+	padding: 2% 1%;
+	border-radius: 0;
+}
+.butongris {
 	background-color: #323A45;
 	color: #ccc;
 }
-.btn-trans {
+.butonclare {
 	background-color: rgba(150, 150, 150, 0.3);
 }
 .build {
@@ -22,47 +29,35 @@ p {
 	height: 400px;
 }
 
-.call{
-	background-color: rgba(0, 0, 0, 0.6);
-	height: 100%;
-	color: white;
-	text-align: center;
-}
-/*
-.build  {
-	background-color: rgba(0, 0, 0, 0.4);
-	height: 100%;
-	padding: 2%;
-	text-align: center;
-}
-*/
 .build p {
 	color: white;
 }
+.call{
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	text-align: center;
+	padding: 10% 25% 5% 25%;
+}
+.callintro p {
+	font-size: 21px;
+	padding-bottom: 10%;
+}
+
 .greyfont {
 	background-color: #F4F4F4;
-	padding: 2%;
+	padding: 2% 8%;
 	text-align: center;
 }
 .thumbnail {
-	padding: 2%;
+	padding: 0;
 	border-radius: 0;
 }
-/* CALL */
+
+
+/* cost */
+.row .space{
+	padding: 1% 0;
 }
-.callintro{
-	padding: 4%;
-	line-height: 40px;
-}
-.callintro p {
-	font-size: 20px;
-	padding: 5%;
-}
-/* PRICING 
-.pricing .row {
-	padding: 0 4%;
-}
-*/
 .cost .thumbnail* {
 	margin: 0;
 }
@@ -74,14 +69,14 @@ p {
 	height: 100px;
 	background-color: #888;
 	color: white;
-	padding: 30px;
+	padding: 15px;
 }
 .premium {
 	background-color: #0DC0C0;
 }
 .dollar{
 	height: 150px;
-	background-color: #fff;
+	background-color:#F4F4F4 ;
 	font-size: 20px;
 	padding: 50px 0;
 }
@@ -92,18 +87,85 @@ p {
 	font-size: 30px;
 }
 .content {
-	padding: 30px;
+	padding-top: 12%;
 	padding-bottom: 0;
 }
-.content div {
-	border-bottom: 1px solid #fff;
-	padding: 15px;
-}
-.caract .btn-lg {
+.content .sizebut {
 	padding: 6px 14%;
 }
+
 /* TESTIMONIALS */
+.customers{
+	padding: 6% 15%;
+	height: 420px;
+}
+.customers h2{
+	padding-bottom: 6%;
+	margin: 0;
+}
+.customers img{
+	width: 10%;
+	height: 10%;
+	margin: 0;
+}
+.customers p{
+	padding: 1%;
+	margin: 0;
+}
+
 
 /* CONTACT */
+.contact {
+	background-image: url("../img/background/contactus.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	color: white; 
+}
+.contactfont{
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100%;
+	background-size: cover;
+	padding: 3% 8%;
+}
+.ct-p2{
+	padding-top: 2%;
+}
+.form-control{
+	margin-bottom: 3%;
+	border-radius: 0;
+	background: transparent;
+	border-color: rgba(244, 244, 244, 0.1);
+}
+.formulary{
+	height: 400px;
+}
+form{
+	height: 400px;
+}
 
 /* FOOTER */
+
+.redes{
+	height: 20%; 
+	width: 20%;
+
+}
+.footer{
+	padding: 4%;
+	height: 150px;
+
+}
+.footerlast{
+	width: 100%;
+	height: 100px;
+	background-color: #888;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	padding: 4%;
+}
+
+
+
+
